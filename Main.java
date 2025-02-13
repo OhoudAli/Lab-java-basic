@@ -45,7 +45,7 @@ public class Main {
 //        int multi = 1;
 //        for (int i = 1; i <= 10; i++) {
 //
-//            multi = number * i;
+//            multi = number * i; // multiply number user add and i the loop that start from 1 to 10
 //           System.out.println(number+" * "+i+" = "+multi);
 //        }
 
@@ -60,8 +60,8 @@ public class Main {
 
 
 //        double Radius = 7.5;
-//        double Perimeter = 2 * Math.PI * Radius;
-//        double Area = Math.PI * Radius * Radius;
+//        double Perimeter = 2 * Math.PI * Radius; // the mathematical that used to calculate Perimeter of circile
+//        double Area = Math.PI * Radius * Radius;// the mathematical that used to calculat  Area of circle
 //
 //        System.out.println("Perimeter is = "+Perimeter);
 //        System.out.println("Area is = "+Area);
@@ -213,7 +213,7 @@ public class Main {
 //     //   System.out.println("Enter width :");// does not work when i ask the user
 //        float Height =8.5f;
 //        float Area = (width * Height); // multiply
-//        float Perimeter = (2*(width + Height));
+//        float Perimeter = (2*(width + Height)); //add width to the height then multiply with 2
 //        System.out.printf("Area is %.2f",Area); // use %.2f to print 2 digit after the point
 //        System.out.printf("\nPerimeter is %.2f",Perimeter);// use %.2f to print 2 digit after the point
 
@@ -260,9 +260,9 @@ public class Main {
 
 //        System.out.println("Enter seconds");
 //        int number = input.nextInt();
-//        int hours = number / 3600;
-//        int minutes = (number%3600)/60;
-//        int seconds = number % 60;
+//        int hours = number / 3600;  // to convert it to hours  which = 23
+//        int minutes = (number%3600)/60; // to convert it to minutes which is in every hour 59 minutes
+//        int seconds = number % 60; // to conver it to secinde which in every minutes 59 second
 //        System.out.println(hours+":"+minutes+":"+seconds);
 
 
@@ -357,10 +357,10 @@ public class Main {
 //        int numbers = input.nextInt();
 //        int holder ;
 //        int result = 0 ;
-//        while (numbers!= 0){
-//             holder = numbers % 10;
-//             result = (result * 10)+ holder;
-//             numbers = numbers/10;
+//        while (numbers!= 0){ // number not equal 0 enter the loop
+//             holder = numbers % 10; // save the number position
+//             result = (result * 10)+ holder; // take the number to the result
+//             numbers = numbers/10; // delete last number from the digit
 //        }
 //        System.out.println("Reverse : "+result);
 
